@@ -15,7 +15,7 @@ body {
     border-radius: 20px;/*边框圆角*/
     box-shadow: 5px 5px rgba(0, 0, 0, 0.1);/*盒子阴影*/
     text-align: center;/*文体对齐*/
-    max-width: 600px;/*最大宽度*/
+    max-width: 400px;/*最大宽度*/
     width: 90%; /* 在手机或小屏幕上，自动占屏幕宽度的 90%，防止溢出 */
 }
 
@@ -59,4 +59,9 @@ p.bio {
 
 .links a:hover {
     color: #050792;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
